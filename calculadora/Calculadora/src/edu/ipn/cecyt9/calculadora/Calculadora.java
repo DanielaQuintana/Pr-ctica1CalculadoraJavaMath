@@ -203,7 +203,8 @@ public class Calculadora extends JFrame {
 			resultado /= new Double(pantalla.getText());
 		} else if (operacion.equals("*")) {
 			resultado *= new Double(pantalla.getText());
-		//Operaciones agregadas
+			
+		//Operaciones agregadas urilizando java.math
                 } else if (operacion.equals("Cos")) {
 			resultado = Math.cos(new Double(pantalla.getText()));
 		
